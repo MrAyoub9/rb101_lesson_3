@@ -2,7 +2,7 @@
   => my_string value will become "pumpkinsrutabaga" because it was mutated within the method using <<
   => my_array will remain unchanged, because we only assigned two new elements within the method using the
     assignment operator which does not mutate the actual array, but returns a new array that references another
-    address memory.
+    address memory to the local variable within the method.
   - output of my_string ==> "pumpkinsrutabaga"
   - output of my_array ==> "["pumpkins"]"
 =end
