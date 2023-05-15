@@ -12,12 +12,17 @@
 
 def factors(number)
   divisor = number
-  factors = [0]
+  factors = []
   
-  number.times do
+  while divisor > 0
     factors << number / divisor if number % divisor == 0
     divisor -= 1
   end
+  # or
+  # number.times do
+  #   factors << number / divisor if number % divisor == 0
+  #   divisor -= 1
+  # end
   # or
   # for i in 1..number do
   #   factors << number / i if number % i == 0

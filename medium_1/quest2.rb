@@ -1,4 +1,5 @@
-#puts "the value of 40 + 2 is " + (40 + 2)
+# puts "the value of 40 + 2 is " + (40 + 2)
+# This will return a TypeError
 # It is not possible to concatenate a string with an integer.
 # There are other ways to do this:
 
