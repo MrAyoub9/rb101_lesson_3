@@ -1,6 +1,7 @@
 =begin
   => The output will be the same for all of them
     - all of the variable points to some address memory that hold the number 42
+    - Integers are immutable, therefore all variables reference the same immutable integer
 =end
 
 a = 42
