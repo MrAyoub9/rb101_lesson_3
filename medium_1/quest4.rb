@@ -3,6 +3,8 @@
     would mutate the actual variable while the second will add the new element and
     then assign it to the local variable which will point to a different address memory
     instead of modifying the original one
+    The first method will actually mutate the array
+    The second method will return a new array, but the original array will not be mutated
 =end
 
 def rolling_buffer1(buffer, max_buffer_size, new_element)
